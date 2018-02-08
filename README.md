@@ -5,6 +5,7 @@ A quick guide to the Lan restarter board can be found <a href="https://wifimag.r
 
 ![alt text](https://wifimag.ro/pic/detail/lan-controller-v2-big.jpg)
 
-The Lan restarter board has one DS18B20 temperature sensor mounted on the PCB, 3 external DS18B20 temperature sensors and a DHT22 temperature & humidity sensor attached to it.
+The Lan restarter board I am using has one DS18B20 temperature sensor mounted on the PCB, 3 additional external DS18B20 temperature sensors and a DHT22 temperature & humidity sensor attached to it.
 
-A sample python script is provided that reads the xml data from the Lan restarter board (temperature and humidity values) and sends it to a socket on the emonPi that logs it to Emoncms.
+A simple python script is used to read the xml data from the Lan restarter board (temperature and humidity values) and send it to a socket on the my emonPi that logs it to Emoncms.
+From Emoncms I can graph the data into usefull dashboards.
