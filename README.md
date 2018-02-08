@@ -1,9 +1,7 @@
 # Lan_restarter
 Stuff related to the Lan Restarter board of sensors
 
-A quick guide to the Lan restarter board can be found <a href="https://wifimag.ro/pic/detail/lan-controller-v2-big.jpg">here</a>: 
-
-<lan-controller-v2.jpg>
+A quick guide to the Lan restarter board can be found <a href="https://wifimag.ro/pic/detail/lan-controller-v2-big.jpg">here</a>. 
 
 The Lan restarter board has one DS18B20 temperature sensor mounted on the PCB, 3 external DS18B20 temperature sensors and a DHT22 temperature & humidity sensor attached to it.
 
