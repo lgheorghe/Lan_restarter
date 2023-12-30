@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python
 
 import urllib
@@ -7,7 +6,7 @@ import string
 import socket
 import time
 
-lr_url = 'http://172.1.1.161/st0.xml'
+lr_url = 'http://172.17.1.161/st0.xml'
 host = "127.0.0.1"
 port = 50012
 nodeid = 99
